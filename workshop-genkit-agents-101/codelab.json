@@ -1,0 +1,26 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2026-04-18T00:41:50-05:00",
+  "id": "workshop-genkit-agents-101",
+  "duration": 95,
+  "title": "Taller introductorio de Genkit",
+  "summary": "Este workshop nos ayudará a aprender acerca de Genkit. En este taller práctico, vamos a construir un Smart Retail. Utilizaremos Genkit, el framework de Google diseñado para llevar a la IA a entornos de producción con la seguridad y escalabilidad que caracteriza al ecosistema de Firebase.",
+  "source": "content/codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "markdown",
+    "genkit"
+  ],
+  "tags": [
+    "web"
+  ],
+  "feedback": "https://github.com/lperepz/workshop-genkit-agents-101",
+  "url": "workshop-genkit-agents-101"
+}

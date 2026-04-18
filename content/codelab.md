@@ -1,10 +1,10 @@
-id: workshop-genkit-upc
-summary: Este workshop nos ayudará a aprender acerca de Genkit. El framework de Google 
+id: workshop-genkit-agents-101
+summary: Este workshop nos ayudará a aprender acerca de Genkit. En este taller práctico, vamos a construir un Smart Retail. Utilizaremos Genkit, el framework de Google diseñado para llevar a la IA a entornos de producción con la seguridad y escalabilidad que caracteriza al ecosistema de Firebase.
 author: Luis Eduardo
-categories: codelab,markdown
+categories: codelab,markdown, genkit
 environments: Web
 status: Published
-feedback link: https://github.com/lperepz/workshop-genkit
+feedback link: https://github.com/lperepz/workshop-genkit-agents-101
 
 # Taller introductorio de Genkit
 
