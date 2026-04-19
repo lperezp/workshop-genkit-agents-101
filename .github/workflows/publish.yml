@@ -38,7 +38,10 @@ jobs:
       run: go install github.com/googlecodelabs/tools/claat@latest
 
     - name: Run claat
-      run: claat export content/codelab.md
+      run: |
+        claat export content/codelab.md
+        claat export content/codelab-en.md
+        mv workshop-genkit-agents-101-en workshop-genkit-agents-101/en
 
     - name: Add CNAME
       run: echo "workshop-genkit-agents-101.lperezp.dev" > workshop-genkit-agents-101/CNAME
