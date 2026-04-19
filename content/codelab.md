@@ -1,6 +1,6 @@
 id: workshop-genkit-agents-101
 summary: Este workshop nos ayudará a aprender acerca de Genkit. En este taller práctico, vamos a construir un Smart Retail. Utilizaremos Genkit, el framework de Google diseñado para llevar a la IA a entornos de producción con la seguridad y escalabilidad que caracteriza al ecosistema de Firebase.
-author: Luis Eduardo
+authors: Luis Eduardo
 categories: codelab,markdown, genkit
 environments: Web
 status: Published
@@ -9,7 +9,7 @@ feedback link: https://github.com/lperezp/workshop-genkit-agents-101
 # Taller introductorio de Genkit
 
 ## Descripción general
-Duration: 01:30:00
+Duration: 00:05:00
 
 En la era de la IA generativa, ya no basta con construir chatbots que solo hablan. El mercado actual demanda agentes de IA: sistemas capaces de razonar, utilizar herramientas externas y seguir reglas de negocio.
 
@@ -32,6 +32,8 @@ Un asistente inteligente que:
 * Tool Calling: Cómo permitir que la IA ejecute código de Typescript para interactuar con APIs.
 * Type Safety: Uso de Zod para garantizar que la IA no rompa la aplicación.
 * Observabilidad: Cómo usar la UI de Genkit para ver exactamente que pasa 'dentro de la cabeza' del modelo.
+
+**Código Fuente:** Puedes encontrar la solución final en [workshop-genkit-agents](https://github.com/lperezp/workshop-genkit-agents)
 
 ### Requisitos
 
@@ -98,7 +100,7 @@ export GOOGLE_GENAI_API_KEY=<your API key>
 ```
 
 ## Flow
-Duration: 00:20:00
+Duration: 00:15:00
 
 ### Crea tu primera aplicación
 
@@ -156,7 +158,7 @@ En la barra lateral, haz clic en Flows y selecciona basicScoutFlow.
 Escribe un producto (ej. "Iphone 15") y presiona Run.
 
 ## Zod: Entrada y Salida Estructurada
-Duration: 00:20:00
+Duration: 00:15:00
 
 Añade este nuevo flujo a tu archivo `src/index.ts`:
 
@@ -197,7 +199,7 @@ export const basicScoutFlow = ai.defineFlow(
 Vuelve a la Developer UI ([localhost:4000](http://localhost:4000)). Verás que ahora aparece `structuredScoutFlow`. Al ejecutarlo, notarás que la respuesta ya no es un párrafo, sino un objeto JSON limpio y listo para ser usado en una aplicación de producción.
 
 ## Tool Calling
-Duration: 00:20:00
+Duration: 00:10:00
 
 Los modelos de lenguaje (LLMs) tienen un límite: su conocimiento llega hasta su fecha de entrenamiento. No saben qué hay en tu almacén hoy ni qué precio tiene un producto en este segundo.
 
@@ -384,7 +386,7 @@ Una vez que el flujo termine:
 2. Verás una lista de las ejecuciones recientes. Haz clic en la última.
 
 ## Despliegue en la nube
-Duration: 00:20:00
+Duration: 00:15:00
 
 Hasta ahora, hemos ejecutado nuestro agente en la Developer UI. En un entorno profesional, necesitamos que nuestro flujo sea accesible a través de una URL segura (HTTPS) para que pueda ser consumido por una app en Angular, React o Flutter.
 
@@ -520,9 +522,9 @@ https://us-central1-tu-proyecto.cloudfunctions.net/generateBasicScoutFlow
 Has pasado de tener un script local a una API de IA generativa con orquestación profesional, conexión real a base de datos (Tools), contratos de datos garantizados (Zod) y reglas de negocio activas.
 
 ## Felicidades
-Duration: 00:03:00
+Duration: 00:05:00
 
-Has construido un Agente de Retail Inteligente desde cero usando el ecosistema de Google Genkit.
+Has construido un sistema de IA robusto, tipado y listo para producción.
 
 ### Lo que has logrado hoy
 
@@ -539,3 +541,12 @@ Has construido un Agente de Retail Inteligente desde cero usando el ecosistema d
 * Conecta esta API a una aplicación de Angular o React.
 * Explora el plugin de RAG para subir manuales de productos en PDF.
 * Implementa evaluaciones automáticas para medir la precisión de las respuestas de tu agente.
+
+### Mantengamos el contacto
+
+Si tienes dudas o quieres compartir lo que construiste, ¡escríbeme!
+
+* [lperezp.dev](https://lperezp.dev)
+* LinkedIn: [Luis Eduardo Perez Pacherrez](https://www.linkedin.com/in/luiseduardoperezpacherrez/)
+* GitHub: [lperezp](https://github.com/lperezp)
+* Redes sociales: [X](https://x.com/lperezp_pe), [Instagram](https://instagram.com/lperezp.dev)

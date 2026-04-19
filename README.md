@@ -1,54 +1,79 @@
-# Codelab Template
+# Taller introductorio de Genkit
 
-This repository provides a template for creating and deploying codelabs using the `claat` tool.
+En la era de la IA generativa, ya no basta con construir chatbots que solo hablan. El mercado actual demanda agentes de IA: sistemas capaces de razonar, utilizar herramientas externas y seguir reglas de negocio.
 
-## Requirements
+En este taller práctico (~90 min), vamos a construir un **Smart Retail Assistant**. Utilizaremos [Genkit](https://firebase.google.com/docs/genkit), el framework de Google diseñado para llevar la IA a entornos de producción con la seguridad y escalabilidad que caracteriza al ecosistema de Firebase.
 
-To use this template, you need to have the following tools installed:
-1. [Go](https://golang.org/dl/)
+> **Codelab en vivo:** [workshop-genkit-agents-101.lperezp.dev](https://workshop-genkit-agents-101.lperezp.dev)
+>
+> **Código fuente de la solución:** [github.com/lperezp/workshop-genkit-agents](https://github.com/lperezp/workshop-genkit-agents)
 
-To setup go you can follow the instructions [here](https://golang.org/doc/install).
+## Qué construirás
 
-Make sure you add the `GOPATH` to your `PATH` as specified [here](https://go.dev/wiki/SettingGOPATH).
+Un asistente inteligente que:
 
-## Content
+- Entiende las necesidades del usuario mediante lenguaje natural.
+- Consulta en tiempo real un catálogo de productos.
+- Valida automáticamente si un producto cumple con los estándares de calidad y disponibilidad.
+- Responde con datos estructurados listos para ser consumidos por una aplicación web.
 
-The main content of the codelab is located in the `codelab.md` file. You can edit this file to customize the codelab according to your needs.
+## Lo que aprenderás
 
-The codelab content is written in CodeLab Markdown format. You can find more information about the CodeLab Markdown format. Here you have an example of a simple [codelab](https://github.com/googlecodelabs/tools/blob/main/sample/codelab.md) where you can check the format.
+- **Flows**: Orquestación de lógica compleja con observabilidad integrada.
+- **Tool Calling**: Cómo permitir que la IA ejecute código TypeScript para interactuar con APIs.
+- **Zod / Type Safety**: Contratos estrictos para que la IA no rompa tu aplicación.
+- **Reglas de Negocio**: Filtros de calidad y disponibilidad sobre los datos del catálogo.
+- **Tracing**: Observabilidad para ver exactamente qué pasa dentro del modelo.
+- **Cloud**: Despliegue en Firebase Cloud Functions.
 
-The codelab that is located in the `content` folder is a simple example of a codelab that you can use as a starting point:
-![image](img/example.png)
+## Módulos
 
-## Generating the Codelab
+| # | Módulo | Duración |
+|---|--------|----------|
+| 1 | Descripción general | 5 min |
+| 2 | Configuración del entorno | 5 min |
+| 3 | Flow | 15 min |
+| 4 | Zod: Entrada y Salida Estructurada | 15 min |
+| 5 | Tool Calling | 10 min |
+| 6 | Reglas de Negocio | 15 min |
+| 7 | Tracing | 5 min |
+| 8 | Despliegue en la nube | 15 min |
+| 9 | Felicidades | 5 min |
+| | **Total** | **90 min** |
 
-This template uses the `claat` tool to generate the codelab pages. To generate the codelab, follow these steps:
+## Requisitos
 
-1. Install `claat` by running:
+- Node.js v20 o superior
+- npm
+- Cuenta de Google (para obtener una API Key de [Google AI Studio](https://aistudio.google.com/app/apikey))
+
+## Generar el Codelab localmente
+
+Este repositorio usa la herramienta `claat` para generar las páginas del codelab.
+
+1. Instala [Go](https://golang.org/dl/) y configura el `GOPATH` en tu `PATH`.
+
+2. Instala `claat`:
 ```bash
 go install github.com/googlecodelabs/tools/claat@latest
 ```
 
-2. Generate the codelab pages by running:
+3. Genera las páginas:
 ```bash
 claat export content/codelab.md
 ```
 
-## Deployment to GitHub Pages
+## Despliegue en GitHub Pages
 
-This template includes a GitHub Actions workflow for deploying the codelab to GitHub Pages. To enable deployment, you need to enable GitHub Pages deployment from GitHub Actions in the GitHub repository settings.
+El repositorio incluye un workflow de GitHub Actions que despliega el codelab automáticamente a GitHub Pages en cada push a `main`. Para habilitarlo, activa GitHub Pages desde **Settings → Pages → Source: GitHub Actions**.
 
-The deployment workflow is defined in the `publish.yml` file. It will automatically deploy the codelab to GitHub Pages whenever changes are pushed to the `main` branch.
+## Contribuir
 
-## Contributing
+1. Haz fork del repositorio.
+2. Crea una rama para tu cambio.
+3. Realiza tus modificaciones.
+4. Abre un Pull Request con una descripción detallada.
 
-We welcome contributions to the Codelab! To contribute, please follow these steps:
+## Licencia
 
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Make your changes.
-4. Submit a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
+Este proyecto está licenciado bajo Apache License 2.0. Consulta el archivo `LICENSE` para más detalles.
