@@ -11,8 +11,7 @@ feedback link: https://github.com/lperezp/workshop-genkit-agents-101
 ## Descripción general
 Duration: 00:05:00
 
-Positive
-: 🇺🇸 **English version:** This codelab is also available in **[English](https://workshop-genkit-agents-101.lperezp.dev/en/)**.
+**English version:** This codelab is also available in **[English](https://workshop-genkit-agents-101.lperezp.dev/en/)**.
 
 En la era de la IA generativa, ya no basta con construir chatbots que solo hablan. El mercado actual demanda agentes de IA: sistemas capaces de razonar, utilizar herramientas externas y seguir reglas de negocio.
 
