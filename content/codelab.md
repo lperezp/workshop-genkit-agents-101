@@ -156,6 +156,7 @@ En la barra lateral, haz clic en Flows y selecciona basicScoutFlow.
 Escribe un producto (ej. "Iphone 15") y presiona Run.
 
 ## Zod: Entrada y Salida Estructurada
+Duration: 00:20:00
 
 Añade este nuevo flujo a tu archivo `src/index.ts`:
 
@@ -350,7 +351,7 @@ async (input) => {
 * **Data Filtering**: El desarrollador tiene el control total sobre qué datos llegan al modelo.
 
 ## Tracing
-Duration: 00:10:00
+Duration: 00:05:00
 
 ¿Alguna vez te has preguntado qué pasa exactamente entre que el usuario hace una pregunta y la IA responde? En el desarrollo tradicional hacemos `console.log` o usamos el debugger. En Genkit, tenemos Tracing.
 
@@ -383,7 +384,7 @@ Una vez que el flujo termine:
 2. Verás una lista de las ejecuciones recientes. Haz clic en la última.
 
 ## Despliegue en la nube
-Duration: 00:15:00
+Duration: 00:20:00
 
 Hasta ahora, hemos ejecutado nuestro agente en la Developer UI. En un entorno profesional, necesitamos que nuestro flujo sea accesible a través de una URL segura (HTTPS) para que pueda ser consumido por una app en Angular, React o Flutter.
 
@@ -519,7 +520,7 @@ https://us-central1-tu-proyecto.cloudfunctions.net/generateBasicScoutFlow
 Has pasado de tener un script local a una API de IA generativa con orquestación profesional, conexión real a base de datos (Tools), contratos de datos garantizados (Zod) y reglas de negocio activas.
 
 ## Felicidades
-Duration: 00:05:00
+Duration: 00:03:00
 
 Has construido un Agente de Retail Inteligente desde cero usando el ecosistema de Google Genkit.
 
