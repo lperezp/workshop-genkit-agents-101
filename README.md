@@ -28,21 +28,6 @@ A smart assistant that:
 - **Tracing**: Observability to see exactly what happens inside the model.
 - **Cloud**: Deployment on Firebase Cloud Functions.
 
-## Modules
-
-| # | Module | Duration |
-|---|--------|----------|
-| 1 | Overview | 5 min |
-| 2 | Environment Setup | 5 min |
-| 3 | Flow | 15 min |
-| 4 | Zod: Structured Input and Output | 15 min |
-| 5 | Tool Calling | 10 min |
-| 6 | Business Rules | 15 min |
-| 7 | Tracing | 5 min |
-| 8 | Cloud Deployment | 15 min |
-| 9 | Congratulations | 5 min |
-| | **Total** | **90 min** |
-
 ## Prerequisites
 
 - Node.js v20 or higher
