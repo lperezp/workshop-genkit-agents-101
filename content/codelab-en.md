@@ -6,7 +6,7 @@ environments: Web
 status: Published
 feedback link: https://github.com/lperezp/workshop-genkit-agents-101
 
-# Introductory Genkit Workshop
+# Build Your First AI Agent with Genkit
 
 ## Overview
 Duration: 00:05:00

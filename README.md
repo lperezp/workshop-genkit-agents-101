@@ -1,4 +1,4 @@
-# Introductory Genkit Workshop
+# Build Your First AI Agent with Genkit
 
 In the era of generative AI, building chatbots that only talk is no longer enough. The current market demands AI agents: systems capable of reasoning, using external tools, and following business rules.
 
