@@ -546,7 +546,7 @@ Has construido un sistema de IA robusto, tipado y listo para producción.
 
 Si tienes dudas o quieres compartir lo que construiste, ¡escríbeme!
 
-* [lperezp.dev](https://lperezp.dev)
-* LinkedIn: [Luis Eduardo Perez Pacherrez](https://www.linkedin.com/in/luiseduardoperezpacherrez/)
-* GitHub: [lperezp](https://github.com/lperezp)
-* Redes sociales: [X](https://x.com/lperezp_pe), [Instagram](https://instagram.com/lperezp.dev)
+* [lperezp.dev](https://lperezp.dev?utm_source=codelab&utm_medium=referral&utm_campaign=workshop-genkit-agents-101)
+* LinkedIn: [Luis Eduardo Perez Pacherrez](https://www.linkedin.com/in/luiseduardoperezpacherrez/?utm_source=codelab&utm_medium=referral&utm_campaign=workshop-genkit-agents-101)
+* GitHub: [lperezp](https://github.com/lperezp?utm_source=codelab&utm_medium=referral&utm_campaign=workshop-genkit-agents-101)
+* Redes sociales: [X](https://x.com/lperezp_pe?utm_source=codelab&utm_medium=referral&utm_campaign=workshop-genkit-agents-101), [Instagram](https://instagram.com/lperezp.dev?utm_source=codelab&utm_medium=referral&utm_campaign=workshop-genkit-agents-101)
