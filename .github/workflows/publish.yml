@@ -40,6 +40,9 @@ jobs:
     - name: Run claat
       run: claat export content/codelab.md
 
+    - name: Add CNAME
+      run: echo "workshop-genkit-agents-101.lperezp.dev" > workshop-genkit-agents-101/CNAME
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
