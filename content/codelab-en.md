@@ -11,6 +11,9 @@ feedback link: https://github.com/lperezp/workshop-genkit-agents-101
 ## Overview
 Duration: 00:05:00
 
+Positive
+: 🇪🇸 **Versión en Español:** Este codelab también está disponible en **[Español](https://workshop-genkit-agents-101.lperezp.dev/)**.
+
 In the era of generative AI, building chatbots that only talk is no longer enough. The current market demands AI agents: systems capable of reasoning, using external tools, and following business rules.
 
 In this hands-on workshop, we will build a Smart Retail assistant. We will use Genkit, Google's framework designed to bring AI to production environments with the security and scalability that characterizes the Firebase ecosystem.

@@ -1,79 +1,85 @@
-# Taller introductorio de Genkit
+# Introductory Genkit Workshop
 
-En la era de la IA generativa, ya no basta con construir chatbots que solo hablan. El mercado actual demanda agentes de IA: sistemas capaces de razonar, utilizar herramientas externas y seguir reglas de negocio.
+In the era of generative AI, building chatbots that only talk is no longer enough. The current market demands AI agents: systems capable of reasoning, using external tools, and following business rules.
 
-En este taller práctico (~90 min), vamos a construir un **Smart Retail Assistant**. Utilizaremos [Genkit](https://firebase.google.com/docs/genkit), el framework de Google diseñado para llevar la IA a entornos de producción con la seguridad y escalabilidad que caracteriza al ecosistema de Firebase.
+In this hands-on workshop (~90 min), we will build a **Smart Retail Assistant**. We will use [Genkit](https://firebase.google.com/docs/genkit), Google's framework designed to bring AI to production environments with the security and scalability that characterizes the Firebase ecosystem.
 
-> **Codelab en vivo:** [workshop-genkit-agents-101.lperezp.dev](https://workshop-genkit-agents-101.lperezp.dev)
+> **Live Codelab (English):** [workshop-genkit-agents-101.lperezp.dev/en/](https://workshop-genkit-agents-101.lperezp.dev/en/)
 >
-> **Código fuente de la solución:** [github.com/lperezp/workshop-genkit-agents](https://github.com/lperezp/workshop-genkit-agents)
+> **Codelab en vivo (Español):** [workshop-genkit-agents-101.lperezp.dev](https://workshop-genkit-agents-101.lperezp.dev)
+>
+> **Source code:** [github.com/lperezp/workshop-genkit-agents](https://github.com/lperezp/workshop-genkit-agents)
 
-## Qué construirás
+## What you will build
 
-Un asistente inteligente que:
+A smart assistant that:
 
-- Entiende las necesidades del usuario mediante lenguaje natural.
-- Consulta en tiempo real un catálogo de productos.
-- Valida automáticamente si un producto cumple con los estándares de calidad y disponibilidad.
-- Responde con datos estructurados listos para ser consumidos por una aplicación web.
+- Understands user needs through natural language.
+- Consults a product catalog in real time.
+- Automatically validates if a product meets quality and availability standards.
+- Responds with structured data ready to be consumed by a web application.
 
-## Lo que aprenderás
+## What you will learn
 
-- **Flows**: Orquestación de lógica compleja con observabilidad integrada.
-- **Tool Calling**: Cómo permitir que la IA ejecute código TypeScript para interactuar con APIs.
-- **Zod / Type Safety**: Contratos estrictos para que la IA no rompa tu aplicación.
-- **Reglas de Negocio**: Filtros de calidad y disponibilidad sobre los datos del catálogo.
-- **Tracing**: Observabilidad para ver exactamente qué pasa dentro del modelo.
-- **Cloud**: Despliegue en Firebase Cloud Functions.
+- **Flows**: Complex logic orchestration with built-in observability.
+- **Tool Calling**: How to allow AI to execute TypeScript code to interact with APIs.
+- **Zod / Type Safety**: Strict contracts so the AI doesn't break your application.
+- **Business Rules**: Quality and availability filters on catalog data.
+- **Tracing**: Observability to see exactly what happens inside the model.
+- **Cloud**: Deployment on Firebase Cloud Functions.
 
-## Módulos
+## Modules
 
-| # | Módulo | Duración |
+| # | Module | Duration |
 |---|--------|----------|
-| 1 | Descripción general | 5 min |
-| 2 | Configuración del entorno | 5 min |
+| 1 | Overview | 5 min |
+| 2 | Environment Setup | 5 min |
 | 3 | Flow | 15 min |
-| 4 | Zod: Entrada y Salida Estructurada | 15 min |
+| 4 | Zod: Structured Input and Output | 15 min |
 | 5 | Tool Calling | 10 min |
-| 6 | Reglas de Negocio | 15 min |
+| 6 | Business Rules | 15 min |
 | 7 | Tracing | 5 min |
-| 8 | Despliegue en la nube | 15 min |
-| 9 | Felicidades | 5 min |
+| 8 | Cloud Deployment | 15 min |
+| 9 | Congratulations | 5 min |
 | | **Total** | **90 min** |
 
-## Requisitos
+## Prerequisites
 
-- Node.js v20 o superior
+- Node.js v20 or higher
 - npm
-- Cuenta de Google (para obtener una API Key de [Google AI Studio](https://aistudio.google.com/app/apikey))
+- Google Account (to get an API Key from [Google AI Studio](https://aistudio.google.com/app/apikey))
 
-## Generar el Codelab localmente
+## Generate the Codelab locally
 
-Este repositorio usa la herramienta `claat` para generar las páginas del codelab.
+This repository uses the `claat` tool to generate the codelab pages.
 
-1. Instala [Go](https://golang.org/dl/) y configura el `GOPATH` en tu `PATH`.
+1. Install [Go](https://golang.org/dl/) and configure the `GOPATH` in your `PATH`.
 
-2. Instala `claat`:
+2. Install `claat`:
 ```bash
 go install github.com/googlecodelabs/tools/claat@latest
 ```
 
-3. Genera las páginas:
+3. Generate the pages:
 ```bash
+# English version
+claat export content/codelab-en.md
+
+# Spanish version
 claat export content/codelab.md
 ```
 
-## Despliegue en GitHub Pages
+## Deployment on GitHub Pages
 
-El repositorio incluye un workflow de GitHub Actions que despliega el codelab automáticamente a GitHub Pages en cada push a `main`. Para habilitarlo, activa GitHub Pages desde **Settings → Pages → Source: GitHub Actions**.
+The repository includes a GitHub Actions workflow that automatically deploys the codelab to GitHub Pages on every push to `main`. To enable it, turn on GitHub Pages from **Settings → Pages → Source: GitHub Actions**.
 
-## Contribuir
+## Contributing
 
-1. Haz fork del repositorio.
-2. Crea una rama para tu cambio.
-3. Realiza tus modificaciones.
-4. Abre un Pull Request con una descripción detallada.
+1. Fork the repository.
+2. Create a branch for your feature.
+3. Commit your changes.
+4. Open a Pull Request with a detailed description.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo Apache License 2.0. Consulta el archivo `LICENSE` para más detalles.
+This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
