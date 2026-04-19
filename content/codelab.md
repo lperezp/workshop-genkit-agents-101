@@ -4,7 +4,7 @@ author: Luis Eduardo
 categories: codelab,markdown, genkit
 environments: Web
 status: Published
-feedback link: https://github.com/lperepz/workshop-genkit-agents-101
+feedback link: https://github.com/lperezp/workshop-genkit-agents-101
 
 # Taller introductorio de Genkit
 
