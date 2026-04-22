@@ -4,6 +4,7 @@ authors: Luis Eduardo
 categories: codelab,markdown, genkit
 environments: Web
 status: Published
+analytics account: G-Q3CXWBNR7T
 feedback link: https://github.com/lperezp/workshop-genkit-agents-101
 
 # Build Your First AI Agent with Genkit 
