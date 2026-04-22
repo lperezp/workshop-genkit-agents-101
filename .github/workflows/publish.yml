@@ -43,6 +43,15 @@ jobs:
         claat export content/codelab-en.md
         mv workshop-genkit-agents-101-en workshop-genkit-agents-101/en
 
+    - name: Restore GA4 ID
+      env:
+        GA4_ID: ${{ secrets.GA4_ID }}
+      run: |
+        sed -i "s/ga4id=\"\"/ga4id=\"$GA4_ID\"/g" workshop-genkit-agents-101/index.html
+        sed -i "s/codelab-ga4id=\"\"/codelab-ga4id=\"$GA4_ID\"/g" workshop-genkit-agents-101/index.html
+        sed -i "s/ga4id=\"\"/ga4id=\"$GA4_ID\"/g" workshop-genkit-agents-101/en/index.html
+        sed -i "s/codelab-ga4id=\"\"/codelab-ga4id=\"$GA4_ID\"/g" workshop-genkit-agents-101/en/index.html
+
     - name: Add CNAME
       run: echo "workshop-genkit-agents-101.lperezp.dev" > workshop-genkit-agents-101/CNAME
 
